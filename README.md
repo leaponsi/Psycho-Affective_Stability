@@ -28,14 +28,11 @@ All computations were performed in **Python** using:
 ## Description
 
 The model describes the evolution of the emotional states of Romeo and Juliet:
-\[
-\begin{cases}
-\dot{x} = a x + b y \\
-\dot{y} = c x + d y
-\end{cases}
-\]
 
-Each parameter \((a, b, c, d)\) defines a distinct **relational scenario**, determining whether the system is **stable**, **unstable**, or **oscillatory**.  
+dx/dt = a·x + b·y  
+dy/dt = c·x + d·y
+
+Each parameter (a, b, c, d) defines a distinct **relational scenario**, determining whether the system stability. 
 The project replicates and extends several cases described in *Turnea et al. (2024)*, including:
 - *Mutual and increasing love*  
 - *Rollercoaster relationship*  
